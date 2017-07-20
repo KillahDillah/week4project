@@ -1,11 +1,11 @@
 body {
-  background-color: #60d9f1;
+  background-color: lightskyblue;
 }
 
 .container {
 	margin: 0px 200px;
 	text-align: center;
-
+	cursor: pointer;
 }
 
 .player {
@@ -18,9 +18,10 @@ audio {
 }
 
 .search {
-	margin: 30px 0px;
+	padding: 30px 0px;
+	border-bottom: 1px solid gray;
 }
-#search {
+#search_box {
 	height: 30px;
 	width: 480px;
 	font-size: medium;
@@ -32,4 +33,35 @@ button {
 	border-radius: 5px;
 	font-size: medium;
 	margin-left: 20px;
+}
+
+.content {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	text-align: center;
+}
+
+h2 {
+	
+
+}
+
+.result_box {
+	list-style-type: none;
+	margin-top: 20px;
+	width: 150px;
+}
+
+#song {
+	font-size: small;
+}
+
+#band {
+	font-weight: bold;
+}
+
+#pic {
+	height: 150px;
+	width: 150px;
 }

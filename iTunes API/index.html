@@ -7,18 +7,19 @@
 <body>
   <div class="container">
     <header>
-      <h1>Really Awesome Music Site</h1>
+      <h1>Leah's iTunes Search</h1>
     </header>
     <section class="player">
-      <audio class="music-player" controls="controls" src=""></audio>
+      <audio class="music-player" controls="controls" src="" autoplay="true" ></audio>
     </section>
     <section class="search">
       <form class="search-form">
-        <input type="text" id="search" placeholder="Search for Artist">
+        <input type="text" id="search_box" placeholder="Search for Artist">
         <button>Search</button>
       </form>
     </section>
-    <section class="results"></section>
+    <h2 id="sr"></h2>
+    <section class="content"></section>
   </div>
   <script src="main.js"></script>
 </body>
