@@ -1,0 +1,35 @@
+body {
+  background-color: #60d9f1;
+}
+
+.container {
+	margin: 0px 200px;
+	text-align: center;
+
+}
+
+.player {
+	border-bottom: solid 1px gray;
+	padding: 20px 50px;
+}
+
+audio {
+	width: 80%;
+}
+
+.search {
+	margin: 30px 0px;
+}
+#search {
+	height: 30px;
+	width: 480px;
+	font-size: medium;
+}
+
+button {
+	height: 30px;
+	width: 115px;
+	border-radius: 5px;
+	font-size: medium;
+	margin-left: 20px;
+}
